@@ -13,6 +13,8 @@ console.log(propsItems);
 
 const propsList = document.querySelectorAll('.props__list');
 
+const ads = document.querySelector('.ads');
+
 // ES6
 const itemSix = document.querySelector('.item_six');
 const propsItemsEs = itemSix.querySelectorAll('.props__item');
@@ -51,3 +53,6 @@ propsList[4].prepend(itemTitles[4]);
 propsList[2].prepend(itemTitles[3]);
 
 itemTitles[2].textContent = 'This и прототипы объектов';
+
+ads.remove();
+
